@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  nav {
+    background-color: #111827;
+    padding: 1rem 0;
+    color: white;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    padding: 60px 20px;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills span {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #1e3a8a;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #1e3a8a;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-photo {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .about-photo img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+    
